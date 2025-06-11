@@ -19,7 +19,7 @@ function App() {
         <ProgramsSection />
         <FeaturesSection />
         <MissionVisionSection />
-        <TestimonialsSection />
+        {/* <TestimonialsSection /> */}
         <ContactSection />
         <Footer />
       </div>
