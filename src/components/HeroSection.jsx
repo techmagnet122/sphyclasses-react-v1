@@ -28,7 +28,7 @@ const HeroSection = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 dark:text-white">Dr. Bishwajit Sharma</h3>
-                  <p className="text-gray-600 dark:text-gray-300">Ex-IIT Bombay, Ex-IIT-ISM Dhanbad, Professor</p>
+                  <p className="text-gray-600 dark:text-gray-300">Ex-IIT Bombay, Ex-IIT-ISM Dhanbad</p>
                 </div>
               </div>
               <div className="space-y-2 text-md text-gray-600 dark:text-gray-300">
