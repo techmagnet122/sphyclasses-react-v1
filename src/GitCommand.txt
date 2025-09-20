@@ -1,0 +1,48 @@
+Command to check current user
+
+git config user.email
+git config user.name
+
+Command to clone the repository
+
+git clone <url>
+
+Command to update the repository from main branch
+
+git pull --rebase
+
+Command to check the working branch
+
+git branch
+
+Command to add file's into staging area
+
+git add <file1> <file2>
+
+Command to commit changes
+
+git commit -m "<message>"
+
+Command to check the log
+
+To see complete log -> git log
+To see important info log -> git log --oneline
+
+Command to push changes from local to remote ** Take care here
+it will push all local commits to remote
+
+git push origin 
+
+
+#Step you should follow every time
+
+git checkout main
+git pull origin main
+git checkout -b feature-branch-name
+
+
+git add <fileName> 
+git commit -m "<message>"
+
+git push origin feature-branch-name
+
