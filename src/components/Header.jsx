@@ -24,11 +24,16 @@ const Header = () => {
     }`}>
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-2">
-          <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-            <Zap className="w-6 h-6 text-white" />
-          </div>
+      
+            {/* logo (1:1 aspect, 15px size) */}
+            <img
+              src="https://sphyclasses-v1.s3.ap-south-1.amazonaws.com/assets/sphyClassLogo.jpeg"
+              alt="SphyClasses logo"
+              className="h-28 w-28 aspect-square object-cover rounded"
+            />
+         
           <div>
-            <h1 className="text-xl font-bold text-gray-900 dark:text-white">SphyClasses</h1>
+            <h1 className="text-xl font-bold text-gray-900 dark:text-white">SphyClasses hellow</h1>
             <p className="text-xs text-gray-600 dark:text-gray-300">Because Physics Matters</p>
           </div>
         </div>
