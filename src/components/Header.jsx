@@ -29,12 +29,12 @@ const Header = () => {
             <img
               src="https://sphyclasses-v1.s3.ap-south-1.amazonaws.com/assets/sphyClassLogo.jpeg"
               alt="SphyClasses logo"
-              className="h-28 w-28 aspect-square object-cover rounded"
+              className="h-20 w-20 aspect-square object-cover rounded"
             />
          
           <div>
-            <h1 className="text-xl font-bold text-gray-900 dark:text-white">SphyClasses hellow</h1>
-            <p className="text-xs text-gray-600 dark:text-gray-300">Because Physics Matters</p>
+            <h1 className="text-6xl font-bold text-black-900 dark:text-white">S-PHY CLASSES</h1>
+            <p className="text-xl  font-bold text-red-600 dark:text-gray-500">  Forum for Science and Mathematics in Dhanbad</p>
           </div>
         </div>
 

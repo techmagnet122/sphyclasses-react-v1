@@ -35,7 +35,7 @@ const ContactSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Get In Touch</h2>
-          <p className="text-xl text-gray-600 dark:text-gray-300">Ready to start your physics journey?</p>
+          <p className="text-xl text-gray-600 dark:text-gray-300">Ready to start your exciting academic journey?</p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
@@ -45,12 +45,12 @@ const ContactSection = () => {
               <div className="space-y-4">
                 <div className="flex items-center space-x-4">
                   <Phone className="w-6 h-6 text-blue-600" />
-                  <span className="text-gray-700 dark:text-gray-300">+91 8092246952</span>
+                  <span className="text-gray-700 dark:text-gray-300">+91 8092246952/ +91 8699499195</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Mail className="w-6 h-6 text-blue-600" />
                   <span className="text-gray-700 dark:text-gray-300">
-                    <a href="mailto:sharmabishwajit93@gmail.com">sharmabishwajit93@gmail.com</a>
+                    <a href="mailto:sharmabishwajit93@gmail.com">sphyclasses@gmail.com</a>
                   </span>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -65,7 +65,7 @@ const ContactSection = () => {
               <ul className="space-y-3">
                 <li className="flex items-center space-x-3">
                   <CheckCircle className="w-5 h-5 text-green-500" />
-                  <span className="text-gray-700 dark:text-gray-300">Expert IIT faculty guidance</span>
+                  <span className="text-gray-700 dark:text-gray-300">Expert guidance from IIT Alumni</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckCircle className="w-5 h-5 text-green-500" />
