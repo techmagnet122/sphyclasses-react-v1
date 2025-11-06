@@ -7,11 +7,12 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">
             <div className="space-y-4">
-              <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white leading-tight">
-                Because <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Physics</span> Matters
+              <h1 className="text-5xl lg:text-4xl font-bold text-gray-900 dark:text-white leading-tight">
+                Because <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Your Dream</span> Matters
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-300">
-                Master Physics for NEET, IIT-JEE & CBSE (11th & 12th) with expert guidance from IIT faculty
+               <p>• NEET, IIT-JEE & CBSE (11th & 12th) preparation from IIT Alumni</p>
+                <p>• Science and Mathematics for class 8 / 9 / 10</p>
               </p>
             </div>
 
@@ -19,7 +20,7 @@ const HeroSection = () => {
               <div className="flex items-center space-x-4 mb-4">
                 <div className="w-24 h-24 bg-gradient-to-br rounded-full flex items-center justify-center">
                   <img 
-                  src='https://sphyclasses-v1.s3.ap-south-1.amazonaws.com/assets/bishwajitjpeg.jpeg'
+                  src='https://sphyclasses-v1.s3.ap-south-1.amazonaws.com/assets/bishwa.jpg.jpg'
                   className='w-24 h-18 rounded-full'
                   alt='sharmabiswajit'
                   loading='eager'
@@ -28,12 +29,12 @@ const HeroSection = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 dark:text-white">Dr. Bishwajit Sharma</h3>
-                  <p className="text-gray-600 dark:text-gray-300">Ex-IIT Bombay, Ex-IIT-ISM Dhanbad</p>
+                  <p className="text-gray-600 dark:text-gray-300">Ex-IIT Bombay, Ex-IIT-ISM Dhanbad (Physics tutor in S-Phy Classes)</p>
                 </div>
               </div>
               <div className="space-y-2 text-md text-gray-600 dark:text-gray-300">
                 <p>• 10+ years of experience</p>
-                <p>• M.Tech & Ph.D (Fluid Dynamics & Heat Transfer), NIT Durgapur</p>
+                <p>• M.Tech & Ph.D. (Fluid Mechanics & Heat Transfer)</p>
                 <p>• GATE & NDA/NA Exam Qualified</p>
               </div>
             </div>
@@ -50,7 +51,7 @@ const HeroSection = () => {
           </div>
 
           <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 rounded-3xl transform rotate-6"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-purple-500 rounded-3xl transform rotate-6"></div>
             <div className="relative bg-white dark:bg-gray-800 p-8 rounded-3xl shadow-2xl">
               <div className="text-center space-y-6">
                 <Brain className="w-24 h-24 mx-auto text-blue-600" />

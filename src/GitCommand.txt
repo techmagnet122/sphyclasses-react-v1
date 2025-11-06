@@ -1,5 +1,7 @@
 Command to check current user
 
+npm run dev
+
 git config user.email
 git config user.name
 

@@ -16,23 +16,34 @@ const ProgramsSection = () => {
       id: 'iit-jee',
       title: "IIT-JEE Preparation",
       description: "Comprehensive JEE Main & Advanced preparation with problem-solving techniques",
-      icon: Target,
-      features: ["Advanced Problem Solving", "Mock Tests", "Doubt Clearing Sessions"]
+      icon: BookOpen,
+      features: ["Strong Conceptual Foundation", "Consistent Practice & Problem Solving", "Regular Tests & Performance Analysis","Doubt Clearing & Personalized Guidance", "Time Management & Smart Planning"]
     },
+      
     {
       id: 'neet',
-      title: "NEET Physics",
+      title: "(NEET) National Eligibility-cum-Entrance Test Preparation" ,
       description: "Medical entrance exam focused physics preparation with concept clarity",
-      icon: Heart,
-      features: ["Medical Physics Focus", "NCERT Coverage", "Previous Year Analysis"]
+      icon: BookOpen,
+      features: ["Focus on fundamental concepts", "Target NEET-2026 & Ambition NEET-2027", "NCERT Coverage", "Analysis on PYQ"]
     },
+
     {
       id: 'cbse',
-      title: "CBSE 11th & 12th",
+      title: "CBSE X Board",
       description: "Complete board exam preparation with in-depth concept understanding",
       icon: BookOpen,
-      features: ["Board Exam Pattern", "Practical Knowledge", "Assignment Practice"]
-    }
+      features: ["Concept-Based Teaching", "Regular Tests & Feedback", "Doubt-Solving Support", "Comprehensive Study Material", "Crash Courses & Revision Batches", "Personal Attention in Small Batches"]
+    },
+
+    {
+      id: 'englishclasses',
+      title: "English Mudule Classes",
+      description: "English Grammar and Speech Classes for all Student Categories",
+      icon: BookOpen,
+      features: ["Structured 4-Month Modules", "Speaking & Writing Practice", "Weekly Tests & Assignments", " Study Material & Notes Provided"]
+    },
+
   ];
 
   const handleLearnMore = (programId) => {
