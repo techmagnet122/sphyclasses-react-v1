@@ -18,13 +18,12 @@ const HeroSection = () => {
 
             <div className="bg-white shadow-gray-400 dark:shadow-gray-800 border-2 border-gray-200 dark:bg-gray-800 p-6 rounded-2xl shadow-lg">
               <div className="flex items-center space-x-4 mb-4">
-                <div className="w-24 h-24 bg-gradient-to-br rounded-full flex items-center justify-center">
+                <div className="aspect-square w-24 sm:w-24 md:w-28 rounded-full overflow-hidden bg-gradient-to-br flex items-center justify-center">
                   <img 
-                  src='https://sphyclasses-v1.s3.ap-south-1.amazonaws.com/assets/bishwa.jpg.jpg'
-                  className='w-24 h-18 rounded-full'
-                  alt='sharmabiswajit'
-                  loading='eager'
-                  
+                    src='https://sphyclasses-v1.s3.ap-south-1.amazonaws.com/assets/bishwa.jpg.jpg'
+                    className='w-full h-full object-cover rounded-full aspect-square'
+                    alt='sharmabiswajit'
+                    loading='eager'
                   />
                 </div>
                 <div>
