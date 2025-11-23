@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { Moon, Sun, Menu, X, Zap } from 'lucide-react';
 import { ThemeContext } from "../context/ThemeContext";
+import { headerSphyClassesLogo } from "../s3AccessorUrls/s3Urls";
 
 
 const Header = () => {
   const { isDark, toggleTheme } = React.useContext(ThemeContext);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 20);
@@ -24,17 +26,12 @@ const Header = () => {
     }`}>
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-2">
-      
-            {/* logo (1:1 aspect, 15px size) */}
-            <img
-              src="https://sphyclasses-v1.s3.ap-south-1.amazonaws.com/assets/sphyClassLogo.jpeg"
-              alt="SphyClasses logo"
-              className="h-20 w-20 aspect-square object-cover rounded"
-            />
-         
-          <div>
-            <h1 className="text-6xl font-bold text-black-900 dark:text-white">S-PHY CLASSES</h1>
-            <p className="text-xl  font-bold text-red-600 dark:text-gray-500">  Forum for Science and Mathematics in Dhanbad</p>
+          <img src={headerSphyClassesLogo} alt="sphyLogo" 
+          className="h-12 w-12 rounded-lg object-cover"
+          />
+          <div className="min-w-0">
+            <h1 className="text-lg sm:text-2xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white leading-tight break-words">S-PHY CLASSES</h1>
+            <p className="text-xs sm:text-sm md:text-base font-semibold text-blue-700 dark:text-blue-300 leading-snug break-words">Forum for Science and Mathematics in Dhanbad</p>
           </div>
         </div>
 

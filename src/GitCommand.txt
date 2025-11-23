@@ -33,18 +33,23 @@ To see important info log -> git log --oneline
 Command to push changes from local to remote ** Take care here
 it will push all local commits to remote
 
-git push origin 
+git push origin <feature_branch_name>
 
 
-#Step you should follow every time
+#Step you should follow every time from
 
 git checkout main
 git pull origin main
 git checkout -b feature-branch-name
 
+1. Make changes
+2. First run to see changes locally - npm run dev 
+3. Then make a artifact - npm run build
+4. The follow the below steps to commit and push to remote
+
 
 git add <fileName> 
 git commit -m "<message>"
-
 git push origin feature-branch-name
 
+Admin will merge the changes to mainline then re-deploy will be triggered when merged to main branch
