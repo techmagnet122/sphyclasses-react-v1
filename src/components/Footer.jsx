@@ -1,4 +1,5 @@
 import { Zap, ExternalLink, Heart } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const learningResources = [
@@ -72,9 +73,11 @@ const Footer = () => {
           <p className="text-sm text-gray-500 mt-2">
             <span>Developed and Managed By, </span>
             <span>
-                <a
+                <Link
+                to="/errorPage"
                 className='text-yellow-300'
-                href="https://techmagnet.s3.ap-south-1.amazonaws.com/index.html" target='__blank'>Tech Magnet</a> Pvt. Ltd.</span>
+                target='__blank'>NavGati</Link> Pvt. Ltd.
+                </span>
           </p>
           <p className='text-gray-500'>
             Ranchi, Jharkhand

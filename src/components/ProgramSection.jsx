@@ -38,7 +38,7 @@ const ProgramsSection = () => {
 
     {
       id: 'englishclasses',
-      title: "English Mudule Classes",
+      title: "English Module Classes",
       description: "English Grammar and Speech Classes for all Student Categories",
       icon: BookOpen,
       features: ["Structured 4-Month Modules", "Speaking & Writing Practice", "Weekly Tests & Assignments", " Study Material & Notes Provided"]
