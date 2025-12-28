@@ -73,15 +73,15 @@ const Footer = () => {
           <p className="text-sm text-gray-500 mt-2">
             <span>Developed and Managed By, </span>
             <span>
-                <Link
-                to="/errorPage"
+                <a
+                href='https://tech-magnet-web-v1.vercel.app/'
                 className='text-yellow-300'
-                target='__blank'>NavGati</Link> Pvt. Ltd.
+                target='__blank'>TechMagnetWeb</a> Pvt. Ltd.
                 </span>
           </p>
-          <p className='text-gray-500'>
+          {/* <p className='text-gray-500'>
             Ranchi, Jharkhand
-          </p>
+          </p> */}
         </div>
       </div>
     </footer>
