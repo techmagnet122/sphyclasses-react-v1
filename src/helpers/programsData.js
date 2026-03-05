@@ -1,8 +1,5 @@
-import React from 'react';
-import { 
-  Target, Heart, BookOpen, CheckCircle, ArrowLeft, Clock, 
-  Users, Award, Calendar, FileText, Video, BookMarked,
-  TrendingUp, Star, Phone, Mail, X
+import {
+  Target, Heart, BookOpen
 } from 'lucide-react';
 
 // Program Details Data

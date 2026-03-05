@@ -69,7 +69,7 @@ const ProgramsSection = () => {
             {programs.map((program, index) => (
               <div key={index} className="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300 dark:shadow-md dark:shadow-gray-700 shadow-gray-300">
                 <div className="text-center space-y-6">
-                  <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl flex items-center justify-center mx-auto">
+                  <div className="w-16 h-16 bg-gradient-to-br from-gray-600 to-blue-600 rounded-2xl flex items-center justify-center mx-auto">
                     <program.icon className="w-8 h-8 text-white" />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white">{program.title}</h3>
@@ -84,7 +84,7 @@ const ProgramsSection = () => {
                   </ul>
                   <button 
                     onClick={() => handleLearnMore(program.id)}
-                    className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 hover:scale-105"
+                    className="w-full bg-gradient-to-r from-gray-600 to-blue-600 text-white py-3 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 hover:scale-105"
                   >
                     Learn More
                   </button>

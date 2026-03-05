@@ -31,7 +31,7 @@ const Header = () => {
           />
           <div className="min-w-0">
             <h1 className="text-lg sm:text-2xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white leading-tight break-words">S-PHY CLASSES</h1>
-            <p className="text-xs sm:text-sm md:text-base font-semibold text-blue-700 dark:text-blue-300 leading-snug break-words">Forum for Science and Mathematics in Dhanbad</p>
+            <p className="text-xs sm:text-sm md:text-base font-semibold text-blue-600 dark:text-blue-300 leading-snug break-words">Forum for Science and Mathematics in Dhanbad</p>
           </div>
         </div>
 
