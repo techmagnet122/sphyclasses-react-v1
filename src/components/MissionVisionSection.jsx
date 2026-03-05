@@ -8,7 +8,7 @@ const MissionVisionSection = () => {
           <div className="space-y-8">
             <div className="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg">
               <div className="flex items-center space-x-4 mb-6">
-                <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
+                <div className="w-12 h-12 bg-gradient-to-br from-gray-600 to-blue-600 rounded-xl flex items-center justify-center">
                   <Target className="w-6 h-6 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Our Mission</h3>
@@ -20,7 +20,7 @@ const MissionVisionSection = () => {
 
             <div className="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg">
               <div className="flex items-center space-x-4 mb-6">
-                <div className="w-12 h-12 bg-gradient-to-br from-purple-600 to-blue-600 rounded-xl flex items-center justify-center">
+                <div className="w-12 h-12 bg-gradient-to-br from-gray-600 to-blue-600 rounded-xl flex items-center justify-center">
                   <Zap className="w-6 h-6 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Our Vision</h3>

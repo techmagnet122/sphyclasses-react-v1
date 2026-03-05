@@ -1,8 +1,5 @@
-import React from 'react';
-import { 
-  Target, Heart, BookOpen, CheckCircle, ArrowLeft, Clock, 
-  Users, Award, Calendar, FileText, Video, BookMarked,
-  TrendingUp, Star, Phone, Mail, X
+import {
+  Target, Heart, BookOpen
 } from 'lucide-react';
 
 // Program Details Data
@@ -189,6 +186,60 @@ export const programsData = {
       topScore: "98% (2024)",
       averageScore: "92%",
       passRate: "100%"
+    }
+  },
+  'englishclasses': {
+    id: 'englishclasses',
+    title: "English Module Classes",
+    subtitle: "Grammar and Speech for all Students",
+    icon: BookOpen,
+    color: "from-yellow-500 to-orange-500",
+    description: "Enhance your English grammar and speaking skills with our modular classes, suitable for students of all levels.",
+    duration: "4 Months",
+    batchSize: "15-20 Students",
+    features: [
+      "Structured 4-Month Modules",
+      "Interactive Speaking & Writing Practice",
+      "Weekly Progress Tests & Assignments",
+      "Comprehensive Study Material & Notes",
+      "Small Batch Size for Personal Attention",
+      "Experienced Language Tutors"
+    ],
+    detailedFeatures: {
+      "About This Program": [
+        "This program is designed to build a strong foundation in English grammar and communication.",
+        "It consists of structured modules that cover everything from basic grammar rules to advanced speaking techniques.",
+        "Ideal for students, professionals, and anyone looking to improve their English proficiency."
+      ],
+      "Key Features": [
+        "Focus on practical usage of English in daily life.",
+        "Personalized feedback to help you improve.",
+        "A supportive and interactive learning environment.",
+        "Flexible batch timings to suit your schedule.",
+        "Certification upon successful completion of the course."
+      ],
+      "Detailed Curriculum": [
+        "Module 1: Fundamentals of English Grammar (Nouns, Pronouns, Verbs, Tenses)",
+        "Module 2: Advanced Grammar and Sentence Structure (Adjectives, Adverbs, Conjunctions, Complex Sentences)",
+        "Module 3: Speaking and Pronunciation Skills (Phonetics, Accent Training, Public Speaking)",
+        "Module 4: Writing and Comprehension Skills (Essay Writing, Email Etiquette, Reading Comprehension)"
+      ]
+    },
+    schedule: [
+      { day: "Tuesday", topics: "Grammar & Sentence Structure", time: "5:00 PM - 7:00 PM" },
+      { day: "Thursday", topics: "Speaking & Pronunciation", time: "5:00 PM - 7:00 PM" },
+      { day: "Saturday", topics: "Writing & Comprehension", time: "3:00 PM - 5:00 PM" }
+    ],
+    fees: {
+      course: "Contact Accordingly",
+      installments: "Installments Available",
+      includes: ["All Study Materials", "Online Portal Access", "Practice Assignments", "Completion Certificate"]
+    },
+    successStats: {
+      selections: "Over 500 students trained",
+      topScore: "Significant improvement in fluency",
+      averageScore: "85% course completion rate",
+      passRate: "98%"
     }
   }
 };

@@ -1,4 +1,4 @@
-import { Award, ArrowRight, Brain } from 'lucide-react';
+import { Award, ArrowRight, Brain } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -8,10 +8,19 @@ const HeroSection = () => {
           <div className="space-y-8 animate-fade-in">
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-4xl font-bold text-gray-900 dark:text-white leading-tight">
-                Because <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Your Dream</span> Matters
+                Because{" "}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-600 to-blue-600
+                dark:from-gray-100 dark:to-blue-400
+                ">
+                  Your Dream
+                </span>{" "}
+                Matters
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-300">
-               <p>• NEET, IIT-JEE & CBSE (11th & 12th) preparation from IIT Alumni</p>
+                <p>
+                  • NEET, IIT-JEE & CBSE (11th & 12th) preparation from IIT
+                  Alumni
+                </p>
                 <p>• Science and Mathematics for class 8 / 9 / 10</p>
               </p>
             </div>
@@ -19,16 +28,21 @@ const HeroSection = () => {
             <div className="bg-white shadow-gray-400 dark:shadow-gray-800 border-2 border-gray-200 dark:bg-gray-800 p-6 rounded-2xl shadow-lg">
               <div className="flex items-center space-x-4 mb-4">
                 <div className="aspect-square w-24 sm:w-24 md:w-28 rounded-full overflow-hidden bg-gradient-to-br flex items-center justify-center">
-                  <img 
-                    src='https://sphyclasses-v1.s3.ap-south-1.amazonaws.com/assets/bishwa.jpg.jpg'
-                    className='w-full h-full object-cover rounded-full aspect-square'
-                    alt='sharmabiswajit'
-                    loading='eager'
+                  <img
+                    src="https://sphyclasses-v1.s3.ap-south-1.amazonaws.com/assets/bishwa.jpg.jpg"
+                    className="w-full h-full object-cover rounded-full aspect-square"
+                    alt="sharmabiswajit"
+                    loading="eager"
                   />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">Dr. Bishwajit Sharma</h3>
-                  <p className="text-gray-600 dark:text-gray-300">Ex-IIT Bombay, Ex-IIT-ISM Dhanbad (Physics tutor in S-Phy Classes)</p>
+                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+                    Dr. Bishwajit Sharma
+                  </h3>
+                  <p className="text-gray-600 dark:text-gray-300">
+                    Ex-IIT Bombay, Ex-IIT-ISM Dhanbad (Physics tutor in S-Phy
+                    Classes)
+                  </p>
                 </div>
               </div>
               <div className="space-y-2 text-md text-gray-600 dark:text-gray-300">
@@ -39,7 +53,7 @@ const HeroSection = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-xl font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center space-x-2">
+              <button className="bg-gradient-to-r from-gray-600 to-blue-600 text-white px-8 py-4  rounded-xl font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center space-x-2">
                 <span>Start Learning</span>
                 <ArrowRight className="w-5 h-5" />
               </button>
@@ -50,20 +64,30 @@ const HeroSection = () => {
           </div>
 
           <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-purple-500 rounded-3xl transform rotate-6"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-gray-600 to-blue-600 rounded-3xl transform rotate-6"></div>
             <div className="relative bg-white dark:bg-gray-800 p-8 rounded-3xl shadow-2xl">
               <div className="text-center space-y-6">
-                <Brain className="w-24 h-24 mx-auto text-blue-600" />
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Learn & Visualize</h3>
-                <p className="text-gray-600 dark:text-gray-300">Experience physics through interactive learning modules</p>
+                <Brain className="w-24 h-24 mx-auto text-yellow-500" />
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
+                  Learn & Visualize
+                </h3>
+                <p className="text-gray-600 dark:text-gray-300">
+                  Experience physics through interactive learning modules
+                </p>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="text-center">
                     <div className="text-3xl font-bold text-blue-600">100+</div>
-                    <div className="text-sm text-gray-600 dark:text-gray-300">Students</div>
+                    <div className="text-sm text-gray-600 dark:text-gray-300">
+                      Students
+                    </div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-purple-600">95%</div>
-                    <div className="text-sm text-gray-600 dark:text-gray-300">Success Rate</div>
+                    <div className="text-3xl font-bold text-yellow-500">
+                      95%
+                    </div>
+                    <div className="text-sm text-gray-600 dark:text-gray-300">
+                      Success Rate
+                    </div>
                   </div>
                 </div>
               </div>

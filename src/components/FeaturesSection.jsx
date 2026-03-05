@@ -46,7 +46,7 @@ const FeaturesSection = () => {
           {features.map((feature, index) => (
             <div key={index} className="group p-6 rounded-2xl border shadow-md shadow-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 transition-all duration-300 dark:shadow-gray-700">
               <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <div className="w-12 h-12 bg-gradient-to-br from-gray-600 to-blue-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                   <feature.icon className="w-6 h-6 text-white" />
                 </div>
                 <div className="flex-1">
